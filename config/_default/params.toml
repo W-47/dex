@@ -23,7 +23,7 @@ defaultFeaturedImage = "/img/homepage.jpeg" # used as default for featured image
 
 highlightCurrentMenuArea = true
 smartTOC = true
-smartTOCHideUnfocusedChildren = true
+smartTOCHideUnfocusedChildren = false
 
 [header]
   layout = "basic" # valid options: basic, fixed, fixed-fill, fixed-fill-blur
@@ -39,7 +39,7 @@ smartTOCHideUnfocusedChildren = true
   layout = "background" # valid options: page, profile, hero, card, background, custom
   #homepageImage = "/img/homepage.jpeg" # used in: hero, and card
   showRecent = true
-  showRecentItems = 5
+  showRecentItems = 1
   showMoreLink = false
   showMoreLinkDest = "/posts"
   cardView = true
@@ -67,11 +67,12 @@ smartTOCHideUnfocusedChildren = true
   invertPagination = false
   showReadingTime = true
   showTableOfContents = true
-  # showRelatedContent = false
+  showRelatedContent = false
   # relatedContentLimit = 3
   showTaxonomies = true
   showAuthorsBadges = true
   showWordCount = true
+  showComments = true
   sharingLinks = [ "linkedin", "twitter", "reddit", "pinterest", "facebook", "email", "whatsapp", "telegram"]
   showZenMode = true
 
