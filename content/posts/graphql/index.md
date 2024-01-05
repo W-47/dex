@@ -1,6 +1,7 @@
 ---
 layout: simple
 title: GRAPHQL
+date: 2024-01-05
 categories: [Web Exploitation, Graphql]
 tags: [Broken Authorization]
 ---
