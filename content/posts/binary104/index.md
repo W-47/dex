@@ -1,5 +1,5 @@
 ---
-title: "pwn103"
+title: "pwn104"
 date: 2024-01-10
 layout: "simple"
 categories: [Binary exploitation]
