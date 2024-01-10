@@ -2,8 +2,8 @@
 title: "pwn101"
 date: 2024-01-05
 layout: "simple"
-categories: [Tryhackme, Medium]
-tags: [Binary exploitation]
+categories: [Binary exploitation]
+tags: [Tryhackme]
 image: https://i.ibb.co/cgYN2Kr/th-3134630742.jpg
 ---
 
@@ -22,16 +22,16 @@ Let's learn.
 
 ### Introduction
 
-So we first begin with some easy task to handle and looking at the description ```This should give you a start: 'AAAAAAAAAAA'```
+So we first begin with some easy task, I reckon it is gonna be a buffer overflow, I will explain this in the analysis parts. So basically we just need t
 we get an idea that this might be a simple buffer overflow. A buffer overflow or buffer overrun is an anomaly whereby a program writes data to a buffer beyond the buffer's allocated memory, overwriting adjacent memory locations.
 Example would look like.
 ![1](https://i.ibb.co/3RLRrq8/example-overflow.png)
 
 ### Analysis
 
-There are many ways to analyse a binary
+There are many ways to analyse a binary, the most common way being using disassemblers like IDA Pro, Ghidra, or radare2 to convert the binary machine code into assembly language. This allows you to analyze the low-level code, understand its instructions, and potentially reconstruct the source code.
 
-We are now going to fire up ghidra which would help us in dissasembly. We are then going to disassemble the main function to get an idea of how the program runs. 
+For this particular challenge we are going to fire up ghidra which would help us see the code the flow of the program.
 
 Here we can notice three things, first is that we have a dangerous function ***gets()***. This reads a line from stdin into the buffer pointed to by s until either a terminating newline or EOF, which it replaces with a null byte ('\0'), otherwise the function will continue to store characters past the end of the buffer allowing us to over write the adjacent memory.
 
