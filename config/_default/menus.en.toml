@@ -20,17 +20,17 @@
   pageref = "ctfs"
   weight = 20
 
-#[[main]]
-#  name = "example sub-menu 1"
-#  parent = "Parent"
-#  pageRef = "posts"
-#  weight = 20
+[[main]]
+  name = "Tryhackme"
+  parent = "Rooms"
+  pageRef = "THM"
+  weight = 20
 
-#[[main]]
-#  name = "example sub-menu 2"
-#  parent = "Parent"
-#  pageRef = "posts"
-#  weight = 20
+[[main]]
+  name = "HackTheBox"
+  parent = "Rooms"
+  pageRef = "HTB"
+  weight = 20
 
 #[[subnavigation]]
 #  name = "An interesting topic"
@@ -46,12 +46,12 @@
 [[main]]
   name = "Categories"
   pageRef = "categories"
-  weight = 20
+  weight = 30
 
 [[main]]
   name = "Tags"
   pageRef = "tags"
-  weight = 30
+  weight = 40
 
 
 # -- Footer Menu --
