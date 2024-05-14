@@ -15,22 +15,22 @@
   pageRef = "posts"
   weight = 10
 
-[[main]]
-  name = "CTFS"
-  pageref = "ctfs"
-  weight = 20
+#[[main]]
+#  name = "CTFS"
+#  pageref = "ctfs"
+#  weight = 20
 
-[[main]]
-  name = "Tryhackme"
-  parent = "Rooms"
-  pageRef = "THM"
-  weight = 20
+#[[main]]
+#  name = "Tryhackme"
+#  parent = "Rooms"
+#  pageRef = "THM"
+#  weight = 20
 
-[[main]]
-  name = "HackTheBox"
-  parent = "Rooms"
-  pageRef = "HTB"
-  weight = 20
+#[[main]]
+#  name = "HackTheBox"
+#  parent = "Rooms"
+#  pageRef = "HTB"
+#  weight = 20
 
 #[[subnavigation]]
 #  name = "An interesting topic"

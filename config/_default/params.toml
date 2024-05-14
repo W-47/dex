@@ -19,7 +19,7 @@ disableImageOptimization = false
 disableTextInHeader = false
 
 defaultBackgroundImage = "/img/background.jpeg" # used as default for background images 
-defaultFeaturedImage = "/img/homepage.jpeg" # used as default for featured images in all articles
+defaultFeaturedImage = "/img/background.jpeg" # used as default for featured images in all articles
 
 highlightCurrentMenuArea = true
 smartTOC = true
@@ -37,7 +37,7 @@ smartTOCHideUnfocusedChildren = false
 
 [homepage]
   layout = "background" # valid options: page, profile, hero, card, background, custom
-  #homepageImage = "/img/homepage.jpeg" # used in: hero, and card
+  homepageImage = "/img/background.jpeg" # used in: hero, and card
   showRecent = true
   showRecentItems = 1
   showMoreLink = false
@@ -67,8 +67,8 @@ smartTOCHideUnfocusedChildren = false
   invertPagination = false
   showReadingTime = true
   showTableOfContents = true
-  showRelatedContent = false
-  # relatedContentLimit = 3
+  showRelatedContent = true 
+  relatedContentLimit = 3
   showTaxonomies = true
   showAuthorsBadges = true
   showWordCount = true
