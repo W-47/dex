@@ -264,3 +264,5 @@ int main(void) {
 ## Conclusion
 
 I took heavy inspiration from past CTF challenges that I came across, so you might have come across this challenges before. I hope you have learned a thing or two about memory corruption bugs
+
+Special shoutout to `0x1337` on solving most of the pwn challenges. You can also get other ways of solving the challenges above and many other more by going through his [article](https://github.com/h4ckyou/h4ckyou.github.io/blob/main/posts/ctf/perfectr00t24/solution.md)
